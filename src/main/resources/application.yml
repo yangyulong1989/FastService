@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/fastservice?useUnicode=true&characterEncoding=UTF-8&usessl=false&serverTimezone=GMT%2B8
+    username: root
+    password: yangyulong1989
+  jpa:
+    database: mysql
+    hibernate:
+      ddl-auto: update
